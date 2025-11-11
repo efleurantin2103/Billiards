@@ -1,2 +1,2 @@
 # Billiards
-{Dynamics of perturbed elliptical billiard tables
+Dynamics of perturbed elliptical billiard tables
