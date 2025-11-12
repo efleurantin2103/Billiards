@@ -27,27 +27,58 @@ Stable and unstable manifolds are computed by solving functional equations:
 - **Stable**: P(μθ) = F(P(θ)) where μ = λ
 
 ## Repository Structure
-
 ```
-├── a_Driver_Billiard.m                 # Main driver for periodic orbit analysis
+├── BilliardIteration/                  # Core billiard map implementations
+│   ├── v2rComplex3.m                   # Complex arithmetic version
+│   ├── RealF3INV.m                     # Inverse billiard map (real)
+│   ├── RealF3.m                        # Forward billiard map (real)
+│   ├── Newtons.m                       # Newton solver utilities
+│   ├── dBill_Table.m                   # Billiard table derivative
+│   ├── dBill_Table.m                   # Billiard table boundary
+│   ├── v2r3.m                          # Coordinate conversion
+│   ├── ComplexF3.m                     # Forward billiard map (complex)
+│   ├── r2v3.m                          # Reverse coordinate conversion
+│   ├── BilliardMap.m                   # Main billiard map interface
+│   ├── priorv.m                        # Prior value tracking
+│   ├── r2vCOMPLEX3.m                   # Complex coordinate conversion
+│   └── Bill_Table.m                    # Table boundary functions
+│
+├── PhasePlotForPaper/                  # Phase space visualization
+│   ├── PhasePlotForPaperLOWALPHA.m     # Low alpha transparency version
+│   ├── PhasePlotForPaper.m             # Standard phase plot generator
+│   └── Extra_info2.m                   # Rotation number computation
+│
+├── a_Driver_Billiard.m                 # Main driver script
 ├── MapManifold_Billiard.m              # Manifold computation and visualization
-├── a_plot_full_per.m                   # Load and plot saved manifold data
+├── a_plot_full_per.m                   # Plot all periods together
+├── parmS_FEMap_Billiard.m              # Stable manifold equation residual
+├── stableNewton_maps_1var_Billiard.m   # Stable manifold Newton solver
+├── unstableNewton_maps_1var_Billiard.m # Unstable manifold Newton solver
+├── perK_FPmap_billiard.m               # Period-k fixed point map
+├── perK_FPmap_2d_mod.m                 # Period-k map (modified version)
+├── parmU_FEMap_Billiard.m              # Unstable manifold equation residual
+├── P_comp_lambda_1variable.m           # Parameterization scaling P(λθ)
+├── newtonPerK_2dmap_mod.m              # Newton iteration for periodic orbits
+├── get_fourier_coeffs_extended.m       # Fourier coefficients of F∘P
+├── evaluate_taylor.m                   # Taylor polynomial evaluation
 ├── BilliardMapOrbit.m                  # Forward orbit computation
 ├── BilliardMapINVOrbit.m               # Backward orbit computation
-├── evaluatetaylor.m                    # Taylor polynomial evaluation
-├── get_fourier_coeffs_extended.m       # Compute Fourier coefficients of F∘P
-├── newtonPerK_2dmap_mod.m              # Newton iteration for periodic orbits
-├── perK_FPmap_2d_mod.m                 # Period-k map evaluation
-├── P_comp_lambda_1variable.m           # Scaling composition P(λθ)
-├── parmS_FEMap_Billiard.m              # Stable manifold residual
-├── parmU_FEMap_Billiard.m              # Unstable manifold residual
-├── stableNewton_maps_1var_Billiard_Per2.m   # Stable manifold solver
-├── unstableNewton_maps_1var_Billiard_Per2.m # Unstable manifold solver
-├── phaseplane_generator.m              # Generate phase space plots
-└── table_X/                            # Data directories for each table
-    ├── manifoldtabXperYlevZ.mat        # Saved manifold data
-    └── manifoldtabXperYlevZ.png        # Manifold visualizations
+│
+└── table_X/                            # Data storage (X = 0,1,2,3,4)
+    ├── manifoldtab*.mat                # Computed manifold data
+    └── manifoldtab*.png                # Manifold visualizations
 ```
+
+### Key Directories
+
+- **BilliardIteration/**: Contains all core billiard map implementations including forward/inverse maps, coordinate transformations, and boundary definitions
+- **PhasePlotForPaper/**: Scripts for generating phase space portraits
+- **table_0/ through table_4/**: Output directories storing computed manifolds and visualizations for each table configuration
+
+### File Naming Conventions
+
+- `manifoldtabXperYlevZ.mat`: Manifold data for table X, period Y, level Z
+- `manifoldtabXperYlevZ.png`: Corresponding visualization
 
 ## Main Codes
 
