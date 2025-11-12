@@ -29,19 +29,18 @@ Stable and unstable manifolds are computed by solving functional equations:
 ## Repository Structure
 ```
 ├── BilliardIteration/                  # Core billiard map implementations
-│   ├── v2rComplex3.m                   # Complex arithmetic version
-│   ├── RealF3INV.m                     # Inverse billiard map (real)
+│   ├── v2rComplex3.m                   # Velocity to momentum (Newton iteration)
+│   ├── v2r3.m                          # Velocity to momentum (direct)
+│   ├── r2vCOMPLEX3.m                   # Momentum to velocity (Newton iteration)
+│   ├── r2v3.m                          # Momentum to velocity (direct)
+│   ├── priorv.m                        # Pre-collision velocity reflection
 │   ├── RealF3.m                        # Forward billiard map (real)
-│   ├── Newtons.m                       # Newton solver utilities
-│   ├── dBill_Table.m                   # Billiard table derivative
-│   ├── dBill_Table.m                   # Billiard table boundary
-│   ├── v2r3.m                          # Coordinate conversion
+│   ├── RealF3INV.m                     # Inverse billiard map (real)
 │   ├── ComplexF3.m                     # Forward billiard map (complex)
-│   ├── r2v3.m                          # Reverse coordinate conversion
 │   ├── BilliardMap.m                   # Main billiard map interface
-│   ├── priorv.m                        # Prior value tracking
-│   ├── r2vCOMPLEX3.m                   # Complex coordinate conversion
-│   └── Bill_Table.m                    # Table boundary functions
+│   ├── Bill_Table.m                    # Table boundary parametrization
+│   ├── dBill_Table.m                   # Table boundary derivative
+│   └── Newtons.m                       # Newton solver utilities
 │
 ├── PhasePlotForPaper/                  # Phase space visualization
 │   ├── PhasePlotForPaperLOWALPHA.m     # Low alpha transparency version
