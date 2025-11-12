@@ -1,5 +1,21 @@
 # Billiard Map Dynamics: Periodic Orbits and Invariant Manifolds
 
+## Example Results
+
+### Combined Manifold Visualizations
+
+The figures below show stable (blue) and unstable (red) manifolds for periodic orbits overlaid on phase space dynamics:
+
+<p align="center">
+  <img src="table_2/full_table_2.jpg" width="45%" alt="Table 2 Manifolds"/>
+  <img src="table_3/full_table_3.jpg" width="45%" alt="Table 3 Manifolds"/>
+</p>
+
+**Left**: Table 2 (Two-mode perturbation) showing complex manifold structure  
+**Right**: Table 3 (Moderate two-mode perturbation) with periodic orbits of various periods
+
+Color coding: 🔴 Unstable manifolds | 🔵 Stable manifolds | ⚫ Periodic orbit points | 🟢 Background orbits
+
 ## Overview
 
 This repository contains MATLAB code for computing and visualizing periodic orbits and their stable/unstable manifolds in billiard dynamical systems with perturbed boundaries. The implementation uses the parameterization method with Taylor polynomial representations to achieve high-precision numerical results.
