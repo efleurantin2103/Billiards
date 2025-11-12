@@ -189,8 +189,8 @@ Solves the shooting map equation: F^k(X) - X = 0
 ### Manifold Parameterization Solvers
 
 **Functions**: 
-- `stableNewton_maps_1var_Billiard_Per2.m`
-- `unstableNewton_maps_1var_Billiard_Per2.m`
+- `stableNewton_maps_1var_Billiard.m`
+- `unstableNewton_maps_1var_Billiard.m`
 
 **Method**: Newton iteration on conjugacy equations with:
 - Adaptive stopping criteria
