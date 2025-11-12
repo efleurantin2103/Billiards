@@ -14,8 +14,6 @@ The figures below show stable (blue) and unstable (red) manifolds for periodic o
 **Left**: Table 2 
 **Right**: Table 3 
 
-<--!Color coding: 🔴 Unstable manifolds | 🔵 Stable manifolds | ⚫ Periodic orbit points-->
-
 ## Overview
 
 This repository contains MATLAB code for computing and visualizing periodic orbits and their stable/unstable manifolds in billiard dynamical systems with perturbed boundaries. The implementation uses the parameterization method with Taylor polynomial representations to achieve high-precision numerical results.
