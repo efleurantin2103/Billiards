@@ -23,7 +23,7 @@ This repository contains MATLAB code for computing and visualizing periodic orbi
 - **Periodic Orbit Computation**: Newton iteration methods for locating periodic orbits of various periods (2, 3, 4, 5, 10, 30)
 - **Manifold Parameterization**: Rigorous computation of stable and unstable manifolds using conjugacy equations
 - **Phase Space Visualization**: Tools for generating phase portraits colored by rotation number
-- **Multiple Table Geometries**: Support for 5+ different perturbed billiard table configurations
+- **Multiple Table Geometries**: Support for 5 different perturbed billiard table configurations
 - **High-Order Accuracy**: Taylor series methods with adaptive degree selection
 
 ## Mathematical Background
