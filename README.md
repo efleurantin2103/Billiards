@@ -11,8 +11,8 @@ The figures below show stable (blue) and unstable (red) manifolds for periodic o
   <img src="table_3/full_table_3.jpg" width="45%" alt="Table 3 Manifolds"/>
 </p>
 
-**Left**: Table 2 (Two-mode perturbation) showing complex manifold structure  
-**Right**: Table 3 (Moderate two-mode perturbation) with periodic orbits of various periods
+**Left**: Table 2 
+**Right**: Table 3 
 
 Color coding: 🔴 Unstable manifolds | 🔵 Stable manifolds | ⚫ Periodic orbit points
 
