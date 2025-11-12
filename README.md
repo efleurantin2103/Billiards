@@ -326,7 +326,7 @@ If you use this code in your research, please cite:
 
 ## Acknowledgments
 
-This implementation uses Taylor polynomial methods inspired by the parameterization method for invariant manifolds. The Newton iteration framework builds on standard numerical continuation techniques for dynamical systems.
+TO BE ADDED
 
 ---
 
