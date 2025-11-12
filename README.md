@@ -28,12 +28,15 @@ This repository contains MATLAB code for computing and visualizing periodic orbi
 
 ## Mathematical Background
 
+
 ### Billiard Map
 The billiard map describes the dynamics of a point particle bouncing inside a table with perturbed boundary:
-```
-x(s) = s + Σ aᵢ sin(iπs)
-y(t) = t + Σ bᵢ sin(iπt)
-```
+
+$$x(\theta) = a_{1,1} \cos(2\pi\theta) + \sum_{k=2}^{n} a_{k,1} \cos(2k\pi\theta) + b_{k,1} \sin(2k\pi\theta)$$
+
+$$y(\theta) = b_{1,2} \sin(2\pi\theta) + \sum_{k=2}^{n} a_{k,2} \sin(2k\pi\theta) + b_{k,2} \sin(2k\pi\theta)$$
+
+where the coefficients are stored in the `coef` matrix.
 
 ### Manifold Parameterization
 Stable and unstable manifolds are computed by solving functional equations:
