@@ -14,7 +14,7 @@ The figures below show stable (blue) and unstable (red) manifolds for periodic o
 **Left**: Table 2 
 **Right**: Table 3 
 
-Color coding: 🔴 Unstable manifolds | 🔵 Stable manifolds | ⚫ Periodic orbit points
+<--!Color coding: 🔴 Unstable manifolds | 🔵 Stable manifolds | ⚫ Periodic orbit points-->
 
 ## Overview
 
