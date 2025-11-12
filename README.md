@@ -317,7 +317,7 @@ If you use this code in your research, please cite:
 
 ```
 [Author information to be added]
-[Paper/thesis title]
+[Paper title]
 [Institution/Journal]
 [Year]
 ```
