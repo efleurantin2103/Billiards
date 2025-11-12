@@ -29,9 +29,9 @@ Stable and unstable manifolds are computed by solving functional equations:
 ## Repository Structure
 
 ```
-├── billiard_periodic_orbits.m          # Main driver for periodic orbit analysis
+├── a_Driver_Billiard.m                 # Main driver for periodic orbit analysis
 ├── MapManifold_Billiard.m              # Manifold computation and visualization
-├── visualize_manifolds.m               # Load and plot saved manifold data
+├── a_plot_full_per.m                   # Load and plot saved manifold data
 ├── BilliardMapOrbit.m                  # Forward orbit computation
 ├── BilliardMapINVOrbit.m               # Backward orbit computation
 ├── evaluatetaylor.m                    # Taylor polynomial evaluation
@@ -51,7 +51,7 @@ Stable and unstable manifolds are computed by solving functional equations:
 
 ## Main Codes
 
-### 1. Periodic Orbit Analysis (`billiard_periodic_orbits.m`)
+### 1. Periodic Orbit Analysis (`a_Driver_Billiard.m`)
 
 **Purpose**: Locate and analyze periodic orbits of specified periods.
 
@@ -96,7 +96,7 @@ per = 2; tablenum = 0; level = 0;
 - PNG visualization of manifolds
 - MAT file containing orbit and manifold data
 
-### 3. Visualization (`visualize_manifolds.m`)
+### 3. Visualization (`a_plot_full.m`)
 
 **Purpose**: Load and combine multiple manifold computations for comprehensive visualization.
 
@@ -115,7 +115,7 @@ axis([0.45, 0.55, -0.1, 0.1]);  % Zoomed view
 axis([0, 1, -1, 1]);  % Full view
 ```
 
-### 4. Phase Space Generator (`phaseplane_generator.m`)
+### 4. Phase Space Generator (`PhasePlotForPaper/PhasePlotForPaper.m`)
 
 **Purpose**: Create phase portraits colored by rotation number.
 
@@ -258,7 +258,7 @@ Phase space: (θ, r) ∈ [0, 1] × [-1, 1]
 - Higher degree → better accuracy, slower computation
 
 ### Scaling Factors (scale_u, scale_s)
-- Control manifold "thickness" in visualization
+- Control manifold initial "scaling" in visualization
 - Typical range: 0.1 - 0.7
 - Adjust based on eigenvalue magnitude
 
@@ -278,19 +278,10 @@ If you use this code in your research, please cite:
 [Year]
 ```
 
-## License
-
-[License information to be added]
-
-## Contact
-
-For questions or issues, please contact:
-[Contact information to be added]
-
 ## Acknowledgments
 
-This implementation uses Taylor polynomial methods inspired by the parameterization approach for invariant manifolds. The Newton iteration framework builds on standard numerical continuation techniques for dynamical systems.
+This implementation uses Taylor polynomial methods inspired by the parameterization method for invariant manifolds. The Newton iteration framework builds on standard numerical continuation techniques for dynamical systems.
 
 ---
 
-**Last Updated**: [Date]
+**Last Updated**: November 2025
