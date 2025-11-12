@@ -211,13 +211,13 @@ Supports interval arithmetic (INTLAB) for rigorous numerics.
 
 ## Table Configurations
 
-| Table | Label | Coefficients (x, y) | Description |
-|-------|-------|---------------------|-------------|
-| 0 | A | [1.1, 0.03], [1, 0.03] | Moderate single-mode |
-| 1 | D | [2, 0.04], [1, 0.035] | Strong single-mode |
-| 2 | C | [1.1, 0.08, 0.0002], [1, 0.095, 0.0001] | Two-mode |
-| 3 | B | [1.1, 0.05, 0.00015], [1, 0.035, 0.0001] | Moderate two-mode |
-| 4 | E | [2, 0.05], [1, 0.065] | Strong single-mode |
+| Table | Label | Coefficients (x, y) | 
+|-------|-------|---------------------|
+| 0 | A | [1.1, 0.03], [1, 0.03] |
+| 1 | D | [2, 0.04], [1, 0.035] | 
+| 2 | C | [1.1, 0.08, 0.0002], [1, 0.095, 0.0001] | 
+| 3 | B | [1.1, 0.05, 0.00015], [1, 0.035, 0.0001] | 
+| 4 | E | [2, 0.05], [1, 0.065] | 
 
 ## Quick Start
 
