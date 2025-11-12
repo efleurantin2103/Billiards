@@ -291,7 +291,7 @@ Contains:
 
 ## Coordinate System
 
-- **θ (theta)**: Angular coordinate, periodic with period 1
+- **θ (theta)**: Angular coordinate
 - **r**: Radial/momentum coordinate in [-1, 1]
 
 Phase space: (θ, r) ∈ [0, 1] × [-1, 1]
