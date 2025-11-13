@@ -1,3 +1,6 @@
+%This will show a picture of the physical table along with a representative ball bounce.
+
+addpath('../BilliardIteration/')
 coefx = [1.1,0.03]; coefy = [1,0.03]; %table 0 
  coeff = [coefx;coefy];
 % 

@@ -1,4 +1,6 @@
+%This will show a picture of the physical table along with a representative ball bounce.
 %Plots table shape with 100 bounces of r=0.3, theta=0.05
+addpath('../BilliardIteration/')
 
 coefx = [1.1, 0.08, 0.0002];  coefy =  [1, 0.095, 0.0001];  %table 2
  coeff = [coefx;coefy];
