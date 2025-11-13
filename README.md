@@ -246,13 +246,7 @@ MapManifold_Billiard(coef, @f, @Df, 100, 400, ...
 
 ```matlab
 tablenum = 0;
-visualize_manifolds  % Set tablenum inside script
-```
-
-### 3. Generate Phase Portrait
-
-```matlab
-phaseplane_generator  % Select table inside script
+a_plot_full  % Set tablenum inside script
 ```
 
 ## Dependencies
@@ -324,6 +318,9 @@ If you use this code in your research, please cite:
 [Institution/Journal]
 [Year]
 ```
+
+## Contact
+For questions, bug reports, or collaboration inquiries, please use the GitHub issue tracker or contact the authors directly.
 
 ## Acknowledgments
 
