@@ -325,6 +325,9 @@ If you use this code in your research, please cite:
 [Year]
 ```
 
+## Contact
+For questions, bug reports, or collaboration inquiries, please use the GitHub issue tracker or contact the authors directly.
+
 ## Acknowledgments
 
 TO BE ADDED
