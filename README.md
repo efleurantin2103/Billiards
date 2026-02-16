@@ -324,7 +324,7 @@ For questions, bug reports, or collaboration inquiries, please use the GitHub is
 
 ## Acknowledgments
 
-TO BE ADDED
+SC was partially supported by the GMU Math Industrial Immersion Program. EF was partially supported by the National Science Foundation under Grant No. DMS-2137947. JMJ was partially supported by National Science Foundation grant DMS-2307987. ES was partially supported by the Simons Foundation under Award 636383.
 
 ---
 
