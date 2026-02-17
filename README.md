@@ -313,10 +313,7 @@ Phase space: (θ, r) ∈ [0, 1] × [-1, 1]
 If you use this code in your research, please cite:
 
 ```
-[Author information to be added]
-[Paper title]
-[Institution/Journal]
-[Year]
+[To be added]
 ```
 
 ## Contact
