@@ -311,9 +311,17 @@ Phase space: (θ, r) ∈ [0, 1] × [-1, 1]
 ## Citation
 
 If you use this code in your research, please cite:
-
-```
-[To be added]
+```bibtex
+@misc{bishop2026billiards,
+  title={Dynamics of perturbed elliptical billiard tables},
+  author={Bishop, Patrick and Chenoweth, Summer and Fleurantin, Emmanuel and Sander, Evelyn and {Mireles James}, Jason},
+  year={2026},
+  eprint={2602.15272},
+  archivePrefix={arXiv},
+  primaryClass={math.DS},
+  url={https://arxiv.org/abs/2602.15272},
+  doi={10.48550/arXiv.2602.15272}
+}
 ```
 
 ## Contact
